@@ -265,7 +265,7 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
   top: 10px;
 }
 #sequence-theme .next {
-  background: url("../images/bt-next.png") 50% 4px no-repeat;
+  background: url("../images/bt-next.webp") 50% 4px no-repeat;
   height: 34px;
   left: 128px;
   width: 41px;
@@ -280,19 +280,19 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 }
 #sequence-theme .prev {
   left: 28px;
-  background: url("../images/bt-prev.png") 50% 4px no-repeat;
+  background: url("../images/bt-prev.webp") 50% 4px no-repeat;
   height: 34px;
   width: 41px;
 }
 #sequence-theme .pause {
-  background: url("../images/bt-pause.png") 50% 4px no-repeat;
+  background: url("../images/bt-pause.webp") 50% 4px no-repeat;
   cursor: pointer;
   height: 33px;
   left: 78px;
   width: 42px;
 }
 #sequence-theme .pause.paused {
-  background: url("../images/bt-play.png") 50% 4px no-repeat;
+  background: url("../images/bt-play.webp") 50% 4px no-repeat;
   height: 33px;
   left: 78px;
   width: 42px;
@@ -301,7 +301,7 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
   background-position: 50% -25px;
 }
 #sequence-theme .status {
-  background: url("../images/status-bar.png") -119px 0 repeat-y;
+  background: url("../images/status-bar.webp") -119px 0 repeat-y;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;

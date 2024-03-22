@@ -19,6 +19,11 @@ window.onload = function(){
         fh_kit.rel = 'stylesheet'
         fh_kit.media = 'screen'
         head.appendChild(fh_kit)
+        // font awesome
+        const fontAwesome = document.createElement('link')
+        fontAwesome.href = 'assets/plugins/font-awesome/css/font-awesome.css'
+        fontAwesome.rel = 'stylesheet'
+        head.appendChild(fontAwesome)
 
         // JS Load Here
 
@@ -39,6 +44,7 @@ window.onload = function(){
         const data_api = document.createElement('script')
         data_api.src = 'https://fareharbor.com/embeds/api/v1/?autolightframe=yes'
         body.appendChild(data_api)
+        
 
 
     }

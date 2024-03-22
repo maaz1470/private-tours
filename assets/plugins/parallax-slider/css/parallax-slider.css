@@ -4,7 +4,7 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: #fff url(../../../../img/homeslider/main.jpg)  0% 0%;
+	background: #fff url(../../../../img/webp/homeslider/main.webp)  0% 0%;
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;
 	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
 	-moz-transition: background-position 1.4s ease-in-out 0.3s;
@@ -46,7 +46,7 @@
 .da-slide h2 i {
 	font-size: 70px;
 	font-style:normal;
-	background:url(../../../../img/homeslider/bg-heading.png) repeat;
+	background:url(../../../../img/webp/homeslider/bg-heading.webp) repeat;
 	padding:0 5px;
 	text-transform:uppercase;
 }
@@ -62,7 +62,7 @@
 	margin-top:40px;
 }
 .da-slide p i {
-	background:url(../../../../img/homeslider/bg-text.png) repeat;
+	background:url(../../../../img/webp/homeslider/bg-text.webp) repeat;
 	padding:0 10px;
 	font-style:normal;
 	
@@ -111,7 +111,7 @@
 	width: 12px;
 	height: 12px;
 	border-radius: 50% !important;
-	background: url(../img/bg-text.png) repeat;
+	background: url(../img/webp/bg-text.webp) repeat;
 	margin: 3px;
 	cursor: pointer;
 }
@@ -130,7 +130,7 @@
 	-webkit-user-select: none;
 }
 .da-arrows span{
-	background: transparent url(../img/arrows.png) no-repeat;
+	background: transparent url(../img/webp/arrows.webp) no-repeat;
 	position: absolute;
 	top: 50%;
 	height: 49px;

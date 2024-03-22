@@ -19,7 +19,7 @@ a.read-more:hover {
 /*Slider
 ------------------------------------*/
 .da-slide h2 i {
-	background:url(../../plugins/parallax-slider/img/bg-heading-light.png) repeat;
+	background:url(../../plugins/parallax-slider/img/webp/bg-heading-light.webp) repeat;
 }
 
 /*Purchase
@@ -85,10 +85,10 @@ a.read-more:hover {
 }
 
 .bx-wrapper .bx-prev {
-	background-image: url(../../plugins/bxslider/images/controls-light.png);
+	background-image: url(../../plugins/bxslider/images/controls-light.webp);
 }
 .bx-wrapper .bx-next {
-	background-image: url(../../plugins/bxslider/images/controls-light.png);
+	background-image: url(../../plugins/bxslider/images/controls-light.webp);
 }
 
 /*Typography
@@ -330,7 +330,7 @@ ul.blog-tags a:hover i {
 
 /*Icons Page
 ------------------------------------*/
-.icon-page li:hover { 
+.webpn-page li:hover { 
 	color:#95a5a6;
 }
 

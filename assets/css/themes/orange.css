@@ -19,7 +19,7 @@ a.read-more:hover {
 /*Slider
 ------------------------------------*/
 .da-slide h2 i {
-	background:url(../../plugins/parallax-slider/img/bg-heading-orange.png) repeat;
+	background:url(../../plugins/parallax-slider/img/webp/bg-heading-orange.webp) repeat;
 }
 
 /*Purchase
@@ -85,10 +85,10 @@ a.read-more:hover {
 }
 
 .bx-wrapper .bx-prev {
-	background-image: url(../../plugins/bxslider/images/controls-orange.png);
+	background-image: url(../../plugins/bxslider/images/controls-orange.webp);
 }
 .bx-wrapper .bx-next {
-	background-image: url(../../plugins/bxslider/images/controls-orange.png);
+	background-image: url(../../plugins/bxslider/images/controls-orange.webp);
 }
 
 /*Typography
@@ -318,7 +318,7 @@ ul.blog-tags a:hover i {
 
 /*Icons Page
 ------------------------------------*/
-.icon-page li:hover { 
+.webpn-page li:hover { 
 	color:#e67e22;
 }
 

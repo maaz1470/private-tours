@@ -2282,14 +2282,14 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("../img/webp/glyphicons-halflings.webp");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
 
 /* White icons with optional class, or on hover/focus/active states of certain elements */
 
-.icon-white,
+.webpn-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
 .nav-list > .active > a > [class^="icon-"],
@@ -2306,569 +2306,569 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("../img/webp/glyphicons-halflings-white.webp");
 }
 
-.icon-glass {
+.webpn-glass {
   background-position: 0      0;
 }
 
-.icon-music {
+.webpn-music {
   background-position: -24px 0;
 }
 
-.icon-search {
+.webpn-search {
   background-position: -48px 0;
 }
 
-.icon-envelope {
+.webpn-envelope {
   background-position: -72px 0;
 }
 
-.icon-heart {
+.webpn-heart {
   background-position: -96px 0;
 }
 
-.icon-star {
+.webpn-star {
   background-position: -120px 0;
 }
 
-.icon-star-empty {
+.webpn-star-empty {
   background-position: -144px 0;
 }
 
-.icon-user {
+.webpn-user {
   background-position: -168px 0;
 }
 
-.icon-film {
+.webpn-film {
   background-position: -192px 0;
 }
 
-.icon-th-large {
+.webpn-th-large {
   background-position: -216px 0;
 }
 
-.icon-th {
+.webpn-th {
   background-position: -240px 0;
 }
 
-.icon-th-list {
+.webpn-th-list {
   background-position: -264px 0;
 }
 
-.icon-ok {
+.webpn-ok {
   background-position: -288px 0;
 }
 
-.icon-remove {
+.webpn-remove {
   background-position: -312px 0;
 }
 
-.icon-zoom-in {
+.webpn-zoom-in {
   background-position: -336px 0;
 }
 
-.icon-zoom-out {
+.webpn-zoom-out {
   background-position: -360px 0;
 }
 
-.icon-off {
+.webpn-off {
   background-position: -384px 0;
 }
 
-.icon-signal {
+.webpn-signal {
   background-position: -408px 0;
 }
 
-.icon-cog {
+.webpn-cog {
   background-position: -432px 0;
 }
 
-.icon-trash {
+.webpn-trash {
   background-position: -456px 0;
 }
 
-.icon-home {
+.webpn-home {
   background-position: 0 -24px;
 }
 
-.icon-file {
+.webpn-file {
   background-position: -24px -24px;
 }
 
-.icon-time {
+.webpn-time {
   background-position: -48px -24px;
 }
 
-.icon-road {
+.webpn-road {
   background-position: -72px -24px;
 }
 
-.icon-download-alt {
+.webpn-download-alt {
   background-position: -96px -24px;
 }
 
-.icon-download {
+.webpn-download {
   background-position: -120px -24px;
 }
 
-.icon-upload {
+.webpn-upload {
   background-position: -144px -24px;
 }
 
-.icon-inbox {
+.webpn-inbox {
   background-position: -168px -24px;
 }
 
-.icon-play-circle {
+.webpn-play-circle {
   background-position: -192px -24px;
 }
 
-.icon-repeat {
+.webpn-repeat {
   background-position: -216px -24px;
 }
 
-.icon-refresh {
+.webpn-refresh {
   background-position: -240px -24px;
 }
 
-.icon-list-alt {
+.webpn-list-alt {
   background-position: -264px -24px;
 }
 
-.icon-lock {
+.webpn-lock {
   background-position: -287px -24px;
 }
 
-.icon-flag {
+.webpn-flag {
   background-position: -312px -24px;
 }
 
-.icon-headphones {
+.webpn-headphones {
   background-position: -336px -24px;
 }
 
-.icon-volume-off {
+.webpn-volume-off {
   background-position: -360px -24px;
 }
 
-.icon-volume-down {
+.webpn-volume-down {
   background-position: -384px -24px;
 }
 
-.icon-volume-up {
+.webpn-volume-up {
   background-position: -408px -24px;
 }
 
-.icon-qrcode {
+.webpn-qrcode {
   background-position: -432px -24px;
 }
 
-.icon-barcode {
+.webpn-barcode {
   background-position: -456px -24px;
 }
 
-.icon-tag {
+.webpn-tag {
   background-position: 0 -48px;
 }
 
-.icon-tags {
+.webpn-tags {
   background-position: -25px -48px;
 }
 
-.icon-book {
+.webpn-book {
   background-position: -48px -48px;
 }
 
-.icon-bookmark {
+.webpn-bookmark {
   background-position: -72px -48px;
 }
 
-.icon-print {
+.webpn-print {
   background-position: -96px -48px;
 }
 
-.icon-camera {
+.webpn-camera {
   background-position: -120px -48px;
 }
 
-.icon-font {
+.webpn-font {
   background-position: -144px -48px;
 }
 
-.icon-bold {
+.webpn-bold {
   background-position: -167px -48px;
 }
 
-.icon-italic {
+.webpn-italic {
   background-position: -192px -48px;
 }
 
-.icon-text-height {
+.webpn-text-height {
   background-position: -216px -48px;
 }
 
-.icon-text-width {
+.webpn-text-width {
   background-position: -240px -48px;
 }
 
-.icon-align-left {
+.webpn-align-left {
   background-position: -264px -48px;
 }
 
-.icon-align-center {
+.webpn-align-center {
   background-position: -288px -48px;
 }
 
-.icon-align-right {
+.webpn-align-right {
   background-position: -312px -48px;
 }
 
-.icon-align-justify {
+.webpn-align-justify {
   background-position: -336px -48px;
 }
 
-.icon-list {
+.webpn-list {
   background-position: -360px -48px;
 }
 
-.icon-indent-left {
+.webpn-indent-left {
   background-position: -384px -48px;
 }
 
-.icon-indent-right {
+.webpn-indent-right {
   background-position: -408px -48px;
 }
 
-.icon-facetime-video {
+.webpn-facetime-video {
   background-position: -432px -48px;
 }
 
-.icon-picture {
+.webpn-picture {
   background-position: -456px -48px;
 }
 
-.icon-pencil {
+.webpn-pencil {
   background-position: 0 -72px;
 }
 
-.icon-map-marker {
+.webpn-map-marker {
   background-position: -24px -72px;
 }
 
-.icon-adjust {
+.webpn-adjust {
   background-position: -48px -72px;
 }
 
-.icon-tint {
+.webpn-tint {
   background-position: -72px -72px;
 }
 
-.icon-edit {
+.webpn-edit {
   background-position: -96px -72px;
 }
 
-.icon-share {
+.webpn-share {
   background-position: -120px -72px;
 }
 
-.icon-check {
+.webpn-check {
   background-position: -144px -72px;
 }
 
-.icon-move {
+.webpn-move {
   background-position: -168px -72px;
 }
 
-.icon-step-backward {
+.webpn-step-backward {
   background-position: -192px -72px;
 }
 
-.icon-fast-backward {
+.webpn-fast-backward {
   background-position: -216px -72px;
 }
 
-.icon-backward {
+.webpn-backward {
   background-position: -240px -72px;
 }
 
-.icon-play {
+.webpn-play {
   background-position: -264px -72px;
 }
 
-.icon-pause {
+.webpn-pause {
   background-position: -288px -72px;
 }
 
-.icon-stop {
+.webpn-stop {
   background-position: -312px -72px;
 }
 
-.icon-forward {
+.webpn-forward {
   background-position: -336px -72px;
 }
 
-.icon-fast-forward {
+.webpn-fast-forward {
   background-position: -360px -72px;
 }
 
-.icon-step-forward {
+.webpn-step-forward {
   background-position: -384px -72px;
 }
 
-.icon-eject {
+.webpn-eject {
   background-position: -408px -72px;
 }
 
-.icon-chevron-left {
+.webpn-chevron-left {
   background-position: -432px -72px;
 }
 
-.icon-chevron-right {
+.webpn-chevron-right {
   background-position: -456px -72px;
 }
 
-.icon-plus-sign {
+.webpn-plus-sign {
   background-position: 0 -96px;
 }
 
-.icon-minus-sign {
+.webpn-minus-sign {
   background-position: -24px -96px;
 }
 
-.icon-remove-sign {
+.webpn-remove-sign {
   background-position: -48px -96px;
 }
 
-.icon-ok-sign {
+.webpn-ok-sign {
   background-position: -72px -96px;
 }
 
-.icon-question-sign {
+.webpn-question-sign {
   background-position: -96px -96px;
 }
 
-.icon-info-sign {
+.webpn-info-sign {
   background-position: -120px -96px;
 }
 
-.icon-screenshot {
+.webpn-screenshot {
   background-position: -144px -96px;
 }
 
-.icon-remove-circle {
+.webpn-remove-circle {
   background-position: -168px -96px;
 }
 
-.icon-ok-circle {
+.webpn-ok-circle {
   background-position: -192px -96px;
 }
 
-.icon-ban-circle {
+.webpn-ban-circle {
   background-position: -216px -96px;
 }
 
-.icon-arrow-left {
+.webpn-arrow-left {
   background-position: -240px -96px;
 }
 
-.icon-arrow-right {
+.webpn-arrow-right {
   background-position: -264px -96px;
 }
 
-.icon-arrow-up {
+.webpn-arrow-up {
   background-position: -289px -96px;
 }
 
-.icon-arrow-down {
+.webpn-arrow-down {
   background-position: -312px -96px;
 }
 
-.icon-share-alt {
+.webpn-share-alt {
   background-position: -336px -96px;
 }
 
-.icon-resize-full {
+.webpn-resize-full {
   background-position: -360px -96px;
 }
 
-.icon-resize-small {
+.webpn-resize-small {
   background-position: -384px -96px;
 }
 
-.icon-plus {
+.webpn-plus {
   background-position: -408px -96px;
 }
 
-.icon-minus {
+.webpn-minus {
   background-position: -433px -96px;
 }
 
-.icon-asterisk {
+.webpn-asterisk {
   background-position: -456px -96px;
 }
 
-.icon-exclamation-sign {
+.webpn-exclamation-sign {
   background-position: 0 -120px;
 }
 
-.icon-gift {
+.webpn-gift {
   background-position: -24px -120px;
 }
 
-.icon-leaf {
+.webpn-leaf {
   background-position: -48px -120px;
 }
 
-.icon-fire {
+.webpn-fire {
   background-position: -72px -120px;
 }
 
-.icon-eye-open {
+.webpn-eye-open {
   background-position: -96px -120px;
 }
 
-.icon-eye-close {
+.webpn-eye-close {
   background-position: -120px -120px;
 }
 
-.icon-warning-sign {
+.webpn-warning-sign {
   background-position: -144px -120px;
 }
 
-.icon-plane {
+.webpn-plane {
   background-position: -168px -120px;
 }
 
-.icon-calendar {
+.webpn-calendar {
   background-position: -192px -120px;
 }
 
-.icon-random {
+.webpn-random {
   width: 16px;
   background-position: -216px -120px;
 }
 
-.icon-comment {
+.webpn-comment {
   background-position: -240px -120px;
 }
 
-.icon-magnet {
+.webpn-magnet {
   background-position: -264px -120px;
 }
 
-.icon-chevron-up {
+.webpn-chevron-up {
   background-position: -288px -120px;
 }
 
-.icon-chevron-down {
+.webpn-chevron-down {
   background-position: -313px -119px;
 }
 
-.icon-retweet {
+.webpn-retweet {
   background-position: -336px -120px;
 }
 
-.icon-shopping-cart {
+.webpn-shopping-cart {
   background-position: -360px -120px;
 }
 
-.icon-folder-close {
+.webpn-folder-close {
   width: 16px;
   background-position: -384px -120px;
 }
 
-.icon-folder-open {
+.webpn-folder-open {
   width: 16px;
   background-position: -408px -120px;
 }
 
-.icon-resize-vertical {
+.webpn-resize-vertical {
   background-position: -432px -119px;
 }
 
-.icon-resize-horizontal {
+.webpn-resize-horizontal {
   background-position: -456px -118px;
 }
 
-.icon-hdd {
+.webpn-hdd {
   background-position: 0 -144px;
 }
 
-.icon-bullhorn {
+.webpn-bullhorn {
   background-position: -24px -144px;
 }
 
-.icon-bell {
+.webpn-bell {
   background-position: -48px -144px;
 }
 
-.icon-certificate {
+.webpn-certificate {
   background-position: -72px -144px;
 }
 
-.icon-thumbs-up {
+.webpn-thumbs-up {
   background-position: -96px -144px;
 }
 
-.icon-thumbs-down {
+.webpn-thumbs-down {
   background-position: -120px -144px;
 }
 
-.icon-hand-right {
+.webpn-hand-right {
   background-position: -144px -144px;
 }
 
-.icon-hand-left {
+.webpn-hand-left {
   background-position: -168px -144px;
 }
 
-.icon-hand-up {
+.webpn-hand-up {
   background-position: -192px -144px;
 }
 
-.icon-hand-down {
+.webpn-hand-down {
   background-position: -216px -144px;
 }
 
-.icon-circle-arrow-right {
+.webpn-circle-arrow-right {
   background-position: -240px -144px;
 }
 
-.icon-circle-arrow-left {
+.webpn-circle-arrow-left {
   background-position: -264px -144px;
 }
 
-.icon-circle-arrow-up {
+.webpn-circle-arrow-up {
   background-position: -288px -144px;
 }
 
-.icon-circle-arrow-down {
+.webpn-circle-arrow-down {
   background-position: -312px -144px;
 }
 
-.icon-globe {
+.webpn-globe {
   background-position: -336px -144px;
 }
 
-.icon-wrench {
+.webpn-wrench {
   background-position: -360px -144px;
 }
 
-.icon-tasks {
+.webpn-tasks {
   background-position: -384px -144px;
 }
 
-.icon-filter {
+.webpn-filter {
   background-position: -408px -144px;
 }
 
-.icon-briefcase {
+.webpn-briefcase {
   background-position: -432px -144px;
 }
 
-.icon-fullscreen {
+.webpn-fullscreen {
   background-position: -456px -144px;
 }
 
@@ -4681,7 +4681,7 @@ input[type="submit"].btn.btn-mini {
   background-color: #cccccc \9;
 }
 
-.navbar .btn-navbar .icon-bar {
+.navbar .btn-navbar .webpn-bar {
   display: block;
   width: 18px;
   height: 2px;
@@ -4694,7 +4694,7 @@ input[type="submit"].btn.btn-mini {
           box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
 }
 
-.btn-navbar .icon-bar + .icon-bar {
+.btn-navbar .webpn-bar + .webpn-bar {
   margin-top: 3px;
 }
 

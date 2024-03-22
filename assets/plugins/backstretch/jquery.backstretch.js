@@ -99,7 +99,7 @@
     this.options = $.extend({}, $.fn.backstretch.defaults, options || {});
 
     /* In its simplest form, we allow Backstretch to be called on an image path.
-     * e.g. $.backstretch('/path/to/image.jpg')
+     * e.g. $.backstretch('/path/to/image.webp')
      * So, we need to turn this back into an array.
      */
     this.images = $.isArray(images) ? images : [images];

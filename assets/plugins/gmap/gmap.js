@@ -722,7 +722,7 @@ if(window.google && window.google.maps){
           polyline_options.editable = options.editable;
 
         if(options.hasOwnProperty("icons"))
-          polyline_options.icons = options.icons;
+          polyline_options.webpns = options.webpns;
 
         if(options.hasOwnProperty("zIndex"))
           polyline_options.zIndex = options.zIndex;
@@ -1560,8 +1560,8 @@ if(window.google && window.google.maps){
           if (data.size && data.size !== 'normal'){
             marker.push('size:' + data.size);
           }
-          else if (data.icon){
-            marker.push('icon:' + encodeURI(data.icon));
+          else if (data.webpn){
+            marker.push('icon:' + encodeURI(data.webpn));
           }
 
           if (data.color){

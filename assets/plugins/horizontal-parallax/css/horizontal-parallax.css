@@ -24,7 +24,7 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 /* End Inner Slider */
 
 #sequence-theme {
-  background: url(../images/bg-sky.png) repeat-x #65b7f1;
+  background: url(../images/bg-sky.webp) repeat-x #65b7f1;
   color: #fff;
   font-family:'Open Sans', sans-serif;
   max-width: 2560px;
@@ -104,11 +104,11 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 	line-height: 1.2em;
 	padding:5px 8px;
 	display:inline-block;
-	background:url(../images/bg-text.png) repeat;
+	background:url(../images/bg-text.webp) repeat;
 }
 #sequence-theme .info p {
 	padding:5px 10px;
-	background:url(../images/bg-text.png) repeat;
+	background:url(../images/bg-text.webp) repeat;
 }
 #sequence-theme .animate-in .info {
   right: 15%;

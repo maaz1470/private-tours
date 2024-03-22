@@ -24,13 +24,13 @@ Load files in the <head> section of your HTML document. Make sure you also add t
 
 Create your links with a `title` if you want a title to be shown, and add a class:
 
-    <a href="large_image.jpg" class="fancybox" title="Sample title"><img src="small_image.jpg" /></a>
+    <a href="large_image.webp" class="fancybox" title="Sample title"><img src="small_image.webp" /></a>
 
 If you have a set of related items that you would like to group,
 additionally include a group name in the `rel` (or `data-fancybox-group`) attribute:
 
-    <a href="large_1.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_1.jpg" /></a>
-    <a href="large_2.jpg" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_2.jpg" /></a>
+    <a href="large_1.webp" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_1.webp" /></a>
+    <a href="large_2.webp" class="fancybox" rel="gallery" title="Sample title 1"><img src="small_2.webp" /></a>
 
 Initialise the script like this:
 
@@ -53,7 +53,7 @@ May also be passed an optional options object which will extend the default valu
 
 Tip: Automatically group and apply fancyBox to all images:
 
-    $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').fancybox();
+    $("a[href$='.webp'],a[href$='.jpeg'],a[href$='.webp'],a[href$='.gif']").attr('rel', 'gallery').fancybox();
 
 Script uses the `href` attribute of the matched elements to obtain the location of the content and to figure out content type you want to display.
 You can specify type directly by adding classname (fancybox.image, fancybox.iframe, etc) or `data-fancybox-type` attribute:
@@ -73,7 +73,7 @@ You can specify type directly by adding classname (fancybox.image, fancybox.ifra
     <a href="example.swf" class="fancybox">Example</a>
 
     //Image:
-    <a href="example.jpg" class="fancybox">Example</a>
+    <a href="example.webp" class="fancybox">Example</a>
 
 Note, ajax requests are subject to the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
 If fancyBox will not be able to get content type, it will try to guess based on 'href' and will quit silently if would not succeed.
@@ -155,18 +155,18 @@ It`s possible to open fancyBox programmatically in various ways:
 
     //Custom object:
     $.fancybox({
-        href: 'example.jpg',
+        href: 'example.webp',
         title : 'Custom Title'
     });
 
     //Array of objects:
     $.fancybox([
         {
-            href: 'example1.jpg',
+            href: 'example1.webp',
             title : 'Custom Title 1'
         },
         {
-            href: 'example2.jpg',
+            href: 'example2.webp',
             title : 'Custom Title 2'
         }
     ], {

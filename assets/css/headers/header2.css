@@ -199,7 +199,7 @@
 .navbar .nav li a.search-nav:hover i {
 	color:#fff;
 }
-.navbar .nav li i.icon-search {
+.navbar .nav li i.webpn-search {
 	font-size:18px;
 	color:#999;
 }
@@ -219,7 +219,7 @@
 	margin:0 !important;	
 }
 
-.navbar a.search i.icon-remove {
+.navbar a.search i.webpn-remove {
 	font-size:19px;
 	padding-left: 1px;	
 	padding-right: 1px;	
