@@ -106,7 +106,7 @@
 
     // Preload images
     $.each(this.images, function () {
-      $('<img />')[0].src = this;
+      $('<img loading="lazy" />')[0].src = this;
     });    
 
     // Convenience reference to know if the container is body.
@@ -216,7 +216,7 @@
         clearInterval(self.interval);
 
         // New image
-        self.$img = $('<img />')
+        self.$img = $('<img loading="lazy" />')
                       .css(styles.img)
                       .bind('load', function (e) {
                         var imgWidth = this.width || $(e.target).width()

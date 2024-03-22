@@ -515,7 +515,7 @@
 								var src= li.data('thumb')
 							else
 								var src=li.find("img:first").attr('src');
-							bullets.append('<div class="bullet thumb"><img src="'+src+'"></div>');
+							bullets.append('<div class="bullet thumb"><img loading="lazy" src="'+src+'"></div>');
 							var bullet= bullets.find('.bullet:first');
 				});
 			//bullets.append('<div style="clear:both"></div>');
@@ -1128,7 +1128,7 @@
 					var off=0-opt.slotw;
 
 				for (var i=0;i<opt.slots;i++)
-					sh.append('<div class="slot" style="position:absolute;top:'+(0+fullyoff)+'px;left:'+(fulloff+i*opt.slotw)+'px;overflow:hidden;width:'+opt.slotw+'px;height:'+h+'px"><div class="slotslide" style="position:absolute;top:0px;left:'+off+'px;width:'+opt.slotw+'px;height:'+h+'px;overflow:hidden;"><img style="background-color:'+bgcolor+';position:absolute;top:0px;left:'+(0-(i*opt.slotw))+'px;width:'+w+'px;height:'+h+'px" src="'+src+'"></div></div>');
+					sh.append('<div class="slot" style="position:absolute;top:'+(0+fullyoff)+'px;left:'+(fulloff+i*opt.slotw)+'px;overflow:hidden;width:'+opt.slotw+'px;height:'+h+'px"><div class="slotslide" style="position:absolute;top:0px;left:'+off+'px;width:'+opt.slotw+'px;height:'+h+'px;overflow:hidden;"><img loading="lazy" style="background-color:'+bgcolor+';position:absolute;top:0px;left:'+(0-(i*opt.slotw))+'px;width:'+w+'px;height:'+h+'px" src="'+src+'"></div></div>');
 
 		}
 
@@ -1169,7 +1169,7 @@
 												 'top:'+(off)+'px;'+
 												 'left:0px;width:'+w+'px;'+
 												 'height:'+opt.sloth+'px;'+
-												 'overflow:hidden;"><img style="position:absolute;'+
+												 'overflow:hidden;"><img loading="lazy" style="position:absolute;'+
 												 'background-color:'+bgcolor+';'+
 												 'top:'+(0-(i*opt.sloth))+'px;'+
 												 'left:0px;width:'+w+'px;'+
@@ -1245,7 +1245,7 @@
 											'height:'+basicsize+'px;'+
 											'overflow:hidden;">'+
 
-								  '<img style="position:absolute;'+
+								  '<img loading="lazy" style="position:absolute;'+
 											'top:'+(0-y)+'px;'+
 											'left:'+(0-x)+'px;'+
 											'width:'+w+'px;'+

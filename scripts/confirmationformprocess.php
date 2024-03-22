@@ -196,7 +196,7 @@ function MM_validateForm() { //v4.0
 
         <div align="center" >                                             
 
-            <a href="https://privatetoursofvenice.com"><img id="logo-header" src="../img/webp/privatetourslogo.webp" alt="Logo"></a>
+            <a href="https://privatetoursofvenice.com"><img loading="lazy" id="logo-header" src="../img/webp/privatetourslogo.webp" alt="Logo"></a>
 
         </div><!-- /logo -->        
 
