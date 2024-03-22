@@ -6,7 +6,19 @@ window.onload = function(){
 
     const facadesLoad = () => {
         // CSS Load Here
-
+        // Cookie Consent Load Here
+        const cookie_consent = document.createElement('link')
+        cookie_consent.href = 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css';
+        cookie_consent.type = 'text/css'
+        cookie_consent.rel = 'stylesheet'
+        head.appendChild(cookie_consent)
+        // fh kit Load Here
+        const fh_kit = document.createElement('link')
+        fh_kit.href = 'https://fh-kit.com/buttons/v2/?color=FE7A00';
+        fh_kit.type = 'text/css'
+        fh_kit.rel = 'stylesheet'
+        fh_kit.media = 'screen'
+        head.appendChild(fh_kit)
 
         // JS Load Here
 
@@ -20,6 +32,10 @@ window.onload = function(){
         back_to_top.async = true;
         back_to_top.src = 'assets/plugins/back-to-top.js'
         body.appendChild(back_to_top)
+        // Cookie Consent JS
+        const cookie_consent_js = document.createElement('script')
+        cookie_consent_js.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js'
+        body.appendChild(cookie_consent_js)
 
 
     }
@@ -32,6 +48,24 @@ window.onload = function(){
             gtag('js', new Date());
 
             gtag('config', 'UA-66070595-1');
+
+
+            // Cookie Consent Register
+            window.cookieconsent.initialise({
+                "palette": {
+                  "popup": {
+                    "background": "#eaf7f7",
+                    "text": "#5c7291"
+                  },
+                  "button": {
+                    "background": "#56cbdb",
+                    "text": "#ffffff"
+                  }
+                },
+                "content": {
+                  "href": "https://privatetoursofvenice.com/privacypolicy.html"
+                }
+              })
         },1000)
     }
 
