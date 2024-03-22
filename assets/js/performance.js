@@ -36,6 +36,9 @@ window.onload = function(){
         const cookie_consent_js = document.createElement('script')
         cookie_consent_js.src = 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js'
         body.appendChild(cookie_consent_js)
+        const data_api = document.createElement('script')
+        data_api.src = 'https://fareharbor.com/embeds/api/v1/?autolightframe=yes'
+        body.appendChild(data_api)
 
 
     }
